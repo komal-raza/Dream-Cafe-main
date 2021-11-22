@@ -1,53 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
-    <meta name="viewport" content= "width=device-width , initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <meta name="description" content="Dream Cafe is a premium food delivery
+    service with the mission to bring affordable and healthy meals to as many people as possible. ">
+    
+    
     <title>Dream Cafè & Restaurant</title>
     <link rel="stylesheet" href="vendors/css/normalize.css" />
     <link rel="stylesheet" href="vendors/css/032 grid.css" />
     <link rel="stylesheet" href="resources/css/style.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="resources/css/mediaQueries.css">
+    <link rel="stylesheet" href="resources/css/mediaQueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="resources/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="resources/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="resources/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="resources/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="resources/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="resources/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="resources/favicons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
     <header>
       <nav>
         <div class="row">
-          <img
-            src="resources/pics/logo.jpeg"
-            alt="Dream Cafe Logo"
-            class="logo"
-          />
-          <ul class="main-nav">
+          <a href="#">
+            <img
+              src="resources/pics/logo.jpeg"
+              alt="Dream Cafe Logo"
+              class="logo"
+            />
+          </a>
+          <ul class="main-nav js--main-nav">
             <li><a href="#fooddelivery">Food Delivery</a></li>
             <li><a href="#howitworks">How it works</a></li>
             <li><a href="#ourcities">Our Cities</a></li>
             <li><a href="#signup">Sign Up</a></li>
           </ul>
+
+          <a href="" class="mobile-nav-icon js--nav-icon">
+            <i class="menu-icon fas fa-bars"></i>
+          </a>
         </div>
       </nav>
 
       <div class="background-images">
         <div class="title">
           <h1>
-            Dream Cafè <br /> <em><strong>&</strong></em> Restaurant
+            Dream Cafè <br />
+            <em><strong>&</strong></em> Restaurant
           </h1>
-          <a class="btn btn-full" href="#">I'm hungry</a>
-          <a class="btn btn-ghost" href="#">Show me More</a>
+          <a class="btn btn-full js--scroll-to-plans" href="#">I'm hungry</a>
+          <a class="btn btn-ghost js--scroll-to-start" href="#">Show me More</a>
         </div>
       </div>
     </header>
-    <section class="section-feature" id="fooddelivery">
+    <section class="section-feature js--section-feature" id="fooddelivery">
       <div class="row">
-        <h2>purity is Our fist priority</h2>
+        <h2>purity is Our first priority</h2>
         <p class="long-copy">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quia
           accusamus velit laudantium nostrum. Eveniet consectetur ipsam amet
@@ -55,7 +106,7 @@
         </p>
       </div>
 
-      <div class="row">
+      <div class="row js--wp-1">
         <div class="col span-1-of-4 box">
           <h3>Up to 365days/year</h3>
           <p>
@@ -169,9 +220,9 @@
       <div class="row">
         <div class="col span-1-of-2 steps-box">
           <img
-            src="resources/image/mobilePic.png"
+            src="resources/image/mobilePic.PNG"
             alt="Omnifood app on iPhone"
-            class="app-screen "
+            class="app-screen js--wp-2"
           />
         </div>
         <div class="col span-1-of-2 steps-box">
@@ -206,12 +257,12 @@
       </div>
     </section>
 
-    <section class="section-cities " id="ourcities">
+    <section class="section-cities" id="ourcities">
       <div class="row">
         <h2>We are currently in these cities</h2>
       </div>
 
-      <div class="row">
+      <div class="row js--wp-3">
         <div class="col span-1-of-4 box">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3EjwI1026MYWfwsGV6wO5IVKxHdh7AXwlvGUXkhc6AvuULvLHRJ64rq0qwV0idoNtjm8&usqp=CAU"
@@ -297,11 +348,11 @@
       </div>
     </section>
 
-    <section class="signup-plan" id="signup">
+    <section class="signup-plan js--section-plans" id="signup">
       <div class="row">
         <h2>Start Eating Healthy today</h2>
       </div>
-      <div class="row">
+      <div class="row js--wp-4">
         <div class="col span-1-of-3">
           <div class="plan-box">
             <div>
@@ -325,7 +376,7 @@
           <div class="plan-box">
             <div>
               <h3>PRO</h3>
-              <p class="plan-price">Rs-299 <span>/month</span></p>
+              <p class="plan-price">Rs-2590 <span>/month</span></p>
               <p class="plan-price-meal">That's only 80-Pkr per meal</p>
             </div>
             <div>
@@ -344,12 +395,12 @@
           <div class="plan-box">
             <div>
               <h3>Starter</h3>
-              <p class="plan-price">Rs-150 <span>/meal</span></p>
+              <p class="plan-price">Rs-1200 <span>/meal</span></p>
               <p class="plan-price-meal">&nbsp;</p>
             </div>
             <div>
               <ul>
-                <li>1 meal</li>
+                <li>4 meal</li>
                 <li>Order from 8 A.M to 12 PM</li>
                 <li>&nbsp;</li>
                 <li>Free Delivery</li>
@@ -444,31 +495,45 @@
       <div class="row">
         <div class="col span-1-of-2">
           <ul class="footer-nav">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Press</a></li>
-              <li><a href="#">Mobile Apps</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Mobile Apps</a></li>
           </ul>
         </div>
         <div class="col span-1-of-2">
           <ul class="social-links">
-            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="#"><i class="fas fa-mobile-alt"></i></a></li>
-        </ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-mobile-alt"></i></a>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="row">
         <p>Copyright &copy; 2021 by Komal Raza. All rights Reserved</p>
       </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script
+      scr="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"
+    ></script>
+    <script
+      scr="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"
+    ></script>
+    <script
+      scr="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"
+    ></script>
+    <script src="resources/js/script.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
   </body>
-  <script scr="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
-  <script scr="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-  <script scr="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
 </html>
-
-
