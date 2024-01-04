@@ -1,18 +1,14 @@
 # Dream Cafe Restaurant Website
 
-### *Food Restaurant Website template, I Developed for Practicing purpose.*
+### *Food Restaurant Website template, I Developed for Practicing purposes.*
 
-
-
-# Video
-https://youtu.be/vhnFcb4cf7I
 
 
 # HOMEPAGE
 ![Screenshot from 2024-01-04 08-54-38](https://github.com/komalraza/Dream-Cafe-main/assets/38317046/585a9f5f-d363-4cd9-a0f0-3f063ffdc574)
 
 
-### :link:link : https://komalraza.github.io/Dream-Cafe-main/
+### :link: https://komalraza.github.io/Dream-Cafe-main/
 
 
 ## Features
