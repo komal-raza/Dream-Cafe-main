@@ -9,6 +9,8 @@
     box-sizing: border-box;
 }
 
+
+
 html,body{
     background-color: #fff;
     color:rgb(124, 122, 122);
@@ -95,7 +97,7 @@ h2:after{
 a:link,a:visited{
     text-decoration: none;
     color:crimson;
-    border-bottom: 1px solid #82ccdd;
+    /* border-bottom: 1px solid #82ccdd; */
     transform: border-bottom 0.2s color 0.2s;
 }
 
@@ -196,6 +198,7 @@ header{
     float:right;
     list-style: none;
     position: sticky;
+    margin-top: 25px;
 }
 
 .main-nav li{
@@ -233,9 +236,16 @@ header{
     display: none;
 }
 
-.mobile-nav-icon > i{
+
+.mobile-nav-icon a::after{
+    text-decoration: none;
+}
+
+
+.mobile-nav-icon .hambuger{
     font-size: 40px;
     color: #fff;
+    text-decoration: none;
 }
 .menu-icon{text-decoration: none;}
 
@@ -276,6 +286,38 @@ sticky .main-nav li a:link,
 .main-nav li a:active{
     border-bottom: 2px solid #edeff0;
 } 
+
+/* Mobile navigation styles */
+.mobile-nav {
+    display: none; /* Hide by default */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 60px; /* Adjust as needed */
+    right: 0;
+    background-color: rgba(53, 51, 51, 0.924);
+    z-index: 9999;
+}
+
+.mobile-nav li {
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.mobile-nav li a {
+    color: rgb(226, 11, 54);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: block;
+    padding: 10px 0;
+}
+
+.mobile-nav li a:hover {
+    background-color: #edeff0;
+}
 
 
 .section-feature .long-copy{

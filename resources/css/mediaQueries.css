@@ -28,21 +28,23 @@
   }
 
 
-  .main-nav{display: none;}
+  .main-nav{
+    display: none
+  }
   .mobile-nav-icon {
     display: inline-block;
   }
 
   .main-nav {
     float: left;
-    margin-bottom: 35px;
-    margin-top: 35px;
+    margin-bottom: 55px;
     margin-left: 25px;
+    margin-top: 25px;
   }
   .main-nav li {
     display: block;
-    margin: 0;
-    padding: 0 0.1px;
+    margin-top: 20px;
+    padding: 0 5px;
   }
 
   .main-nav li a:link,
@@ -50,8 +52,8 @@
     display: block;
     margin: 2px;
     border: none;
-    padding: 0 5px;
-    font-size: 90%;
+    padding: 0 10px;
+    font-size: 80%;
   }
 
  
@@ -66,13 +68,11 @@
     color: rgb(226, 11, 54);
     padding: 10px 0;
   }
-
-  .sticky .main-nav li a:hover,
-  .main-nav li a:active {
-    border-bottom: 2px solid #edeff0;
+  .sticky .mobile-nav-icon {
+    margin-top: 18px;
   }
 
-  .sticky .mobile-nav-icon i{
+  .sticky .mobile-nav-icon .hambuger{
     color: rgb(226, 11, 54);
   }
 
@@ -129,6 +129,9 @@ small tablet to big tablet */
   section {
     padding: 60px 0;
   }
+  .main-nav{
+    /* display: none */
+  }
   .section-meals {
     padding: 0;
     min-height: 325px;
@@ -174,5 +177,18 @@ small tablet to big tablet */
   }
   .row {
     padding: 0 2%;
+  }
+}
+
+
+
+/* Show mobile menu button on small screens */
+@media screen and (max-width: 768px) {
+  .main-nav {
+      display: none;
+  }
+
+  .mobile-nav-icon {
+      display: block;
   }
 }

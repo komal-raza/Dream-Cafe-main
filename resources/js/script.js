@@ -114,23 +114,37 @@ $(document).ready(function () {
 
 
 //   mobile-navigation\
-  $(".js--nav-icon").click(function () {
-    var nav = $(".js--main-nav");
-    var icon = $(".js--nav-icon i");
 
-    nav.slideToggle(200);
-    // if (icon.hasClass("menu-icon")) {
-    //   icon.addClass("");
-    //   icon.removeClass("");
-    // } else {
-    //   icon.addClass("");
-    //   icon.removeClass("");
-    // }
+
+//   $(".js--nav-icon").click(function () {
+//     var nav = $('.js--main-nav');
+//     var icon = $(".js--nav-icon .hambuger");
+
+//     nav.slideToggle(200);
+//     if (icon.hasClass("menu-icon")) {
+//       icon.addClass("");
+//       icon.removeClass("");
+//     } else {
+//       icon.addClass("");
+//       icon.removeClass("");
+//     }
+//   })
+
+//   var waypoints = $('#handler-first').waypoint(function(direction) {
+//       notify(this.element.id + ' hit 25% from top of window')
+//     }, {
+//       offset: '25%'
+//     })
+// });
+
+$(document).ready(
+  function() {
+  $(".js--nav-icon").click(
+    function (event) {
+      event.preventDefault(); // Prevent the default action (page refresh)
+
+      var nav = $('.js--mobile-nav');
+      nav.slideToggle(200); // Toggle the mobile navigation menu
   })
-
-  // var waypoints = $('#handler-first').waypoint(function(direction) {
-  //     notify(this.element.id + ' hit 25% from top of window')
-  //   }, {
-  //     offset: '25%'
-  //   })
-});
+}
+)})
